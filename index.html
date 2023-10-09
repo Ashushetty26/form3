@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM2</title>
+</head>
+<body>
+    <form action="message2.html">
+        <fieldset>
+            <legend> Personal Details</legend>
+            <label for="fname">FIRST NAME:</label>
+        <input type="text" required placeholder="Ashitha" name="fname" id="fname"  >
+        <br><br>
+
+        <label for="mname">MIDDLE NAME:</label>
+        <input type="text" required placeholder="V" name="mname" id="mname" >
+        <br><br>
+
+        <label for="lname">LAST NAME:</label>
+        <input type="text" required placeholder="Shetty" name="lname" id="lname" >
+        <br><br>
+
+        <label for="email">EMAIL:</label>
+        <input type="email" required placeholder="ashu@gmail.com" name="email" id="email" >
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" required placeholder="26/09/2000" name="dob" id="dob" >
+        <br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Educational Details</legend>
+        <label for="dept">DEPARTMENT:</label>
+        <br><br>
+
+        <input type="radio" id="cs" name="dept">
+        <label for="cs">CS</label> 
+
+        <input type="radio" id="civil" name="dept">
+        <label for="civil">CIVIL</label> 
+
+        <input type="radio" id="ec" name="dept">
+        <label for="ec">EC</label>
+        <br><br>
+
+        <label for="yog1">YOG:</label>
+        <input list="yog" id="yog1" name="yog">
+        <datalist id="yog">
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+            <option>2025</option>
+        </datalist>
+        <br><br>
+        <label for="" >SKILLS:</label>
+        <br><br>
+        <input type="checkbox" id="skill1" name="skill1" value="HTML">
+        <label for="skill1" >HTML</label>
+        <br><br>
+        <input type="checkbox" id="skill2" name="skill2" value="CSS">
+        <label for="skill2" >CSS</label>
+        <br><br>
+        <input type="checkbox" id="skill3" name="skill3" value="JAVA">
+        <label for="skill3" >JAVA</label>
+    </fieldset>
+    <br><br>
+    <input type="submit">
+    
+    
+
+
+
+    </form>
+</body>
+</html>
